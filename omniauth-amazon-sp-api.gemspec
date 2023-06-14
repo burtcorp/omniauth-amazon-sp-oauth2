@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/amazon-sp-api/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-amazon-sp-api"
+  spec.name          = "omniauth-amazon-sp-oauth2"
   spec.version       = OmniAuth::AmazonSpApi::VERSION
   spec.authors       = ["Dropstream"]
   spec.email         = ["karl.falconer@getdropstream.com"]
